@@ -12,7 +12,12 @@ print(name[:2])
 print(name[:-1])
 print(name[-1:-4])
 print("Using function\n")
-print(name.upper())
-print(name.lower())
+print("upper letter:" ,name.upper())
+print("lower letter",name.lower())
+print("titlecase", name.title())
+print("find a specific word:\n")
+Data = "i am currently completed BCA"
+FindC = Data.find()
+
 
 
