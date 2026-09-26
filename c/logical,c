@@ -4,7 +4,5 @@ int main(){
   if(age>18){
     printf("you can vote");
   }else
-  printf("you cant't vote");
-
-  
+  printf("you 
 }
