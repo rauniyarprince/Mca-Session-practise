@@ -2,5 +2,6 @@
 int main(){
   int x = 20;
    float y = x ;
+   printf("%f",y);
   return 0;
 }
