@@ -34,3 +34,14 @@ print("Items:", student.items())
 
 # 9. Check whether a key exists
 print("name" in student)
+
+# 10. Get the number of items
+print("Length:", len(student))
+
+# 11. Remove an item using pop()
+student.pop("age")
+print("After pop:", student)
+
+# 12. Clear the dictionary
+student.clear()
+print("After clearing:", student)
