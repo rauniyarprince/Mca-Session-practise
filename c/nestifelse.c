@@ -2,17 +2,14 @@
 int main(){
   int num ;
   printf("enter the number :");
-  scnaf("%d",&num);
+  scanf("%d",&num);
   if(num<0)
   printf("negative num");
-  elseif(num>0)
+  else if(num>0)
   printf("postive num");
-  elseif(num == 0)
+  else if(num == 0)
   printf("given num is zero");
   else
-  printf("invalid")
-
-
-
-
+  printf("invalid");
+  return 0;
 }
