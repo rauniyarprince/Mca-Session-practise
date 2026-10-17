@@ -6,7 +6,7 @@ int main(){
   int num;
    printf("Enter the num:");
    scanf("%d",&num);
-   printf(square(num));
+   printf("%d",square(num));
    return 0 ;
    
 }
