@@ -87,5 +87,10 @@
 # print(evenodd)
 
 
+li=[8,9,6,3,9]
+li[0]=99
+print(li)
+
+
 
 

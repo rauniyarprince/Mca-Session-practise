@@ -62,13 +62,15 @@
 # t2=(9,6,3,6)
 # print(t == t2)
 
-#tuple function
-t2=(9,6,9,3,6)
-# print(len(t2))
-# print(min(t2))
-# print(max(t2))
-# print(sorted(t2))
-# t2.count(9)
+# #tuple function
+# t2=(9,6,9,3,6)
+# # print(len(t2))
+# # print(min(t2))
+# # print(max(t2))
+# # print(sorted(t2))
+# # t2.count(9)
+# # print(t2)
+# t2.index(3)
 # print(t2)
-t2.index(3)
-print(t2)
+
+
