@@ -104,6 +104,21 @@
 # del li[1] #delete index which element obtained 1. (del li) delete entire lise
 
 
+# #user input 
+# li=[]
+# n = int(input("enter the number: "))
+# for i in range(n):
+#   user = input("enter the element: ")
+#   li.append(user)
+# print(li)
 
+# l2 = list(input("enter the num: "))
+# print(l2)
 
-
+# #passing func list
+# def passlist(li):
+#   for i in range(len(li)): # for i in li
+#     print(li[i])   # it means jo index i me hai li ka us index value ko print karao
+# l1=[8,9,6,3,6,9]
+# passlist(l1)
+  
