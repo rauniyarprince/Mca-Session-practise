@@ -87,6 +87,23 @@
 # square = [x**2 for x in range(1,5)]
 # print(square)
 
-#function practise
+# #function practise
+# li = [8,6,3,6,9]
+# l2=li.copy() # not pass argument copy the list into l2
+# print(len(li))
+# print(min(li))
+# print(max(li))
+# print(sorted(li))
+# print(sum(li))
+# print(li.sort()) # none  because sort in existing list not return anything so none is output
+# print(li) # than sorted list appear 
+# print(li.reverse()) #none because modifiy in existing list
+# print(li.count(1)) #(0) because not 1 in list
+# print(li.clear()) # clear all list element
+# print(li.index(8)) # 0 return index if found otherwise gives error
+# del li[1] #delete index which element obtained 1. (del li) delete entire lise
+
+
+
 
 
