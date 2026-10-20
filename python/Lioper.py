@@ -55,6 +55,38 @@
 # print(l4[0:]) #all print
 # print(l4[-1::5]) #1 only not going backward
 
-#modifing
+# #consuctive modifing
+# l5=[8,9,6,3,6,9]
+# l5[1:4]=[0,1,2]
+# l5[0:3]=[99,88,77,66] # range se jade item honge to bhi add ho jayega
+# print(l5)
+# l5[1:4]=["A"] # range replace ho jayega kewal A se [8,'A',6,9]
 
- 
+# #repeatation
+# l6=[2,5]*5
+# print(l6) 
+
+# #membership chekcing
+# l7=[4,5,2,6,"prince","deepak","Pranshu",8,3]
+# if "prince" in l7:
+#   print("found")
+# else:
+#   print("unfound")
+
+# print(8 in l7)
+
+# # concatenation
+# l6 =[38,2,5,23,12]
+# l7 =[8,6,2]
+# print(l7+l6) 
+
+# #list comprehensions
+# evenodd =["even" if i%2==0 else "odd" for i in range(5)]
+# print(evenodd)
+
+# square = [x**2 for x in range(1,5)]
+# print(square)
+
+#function practise
+
+
