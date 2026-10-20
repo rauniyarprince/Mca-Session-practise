@@ -15,7 +15,22 @@
 # li.insert(0,99)
 # print(li)
 
-#update
-li=[1,2,3,4,5,6]
-li[0]="prince"
+# #update
+# li=[1,2,3,4,5,6]
+# li[0]="prince"
+# print(li)
+# li[1:3]=[8,8,8]
+# print(li)
+# li[1:3]=['A']
+# print(li)
+
+#delete
+li=[8,9,6,5,6]
+li.remove(6)
 print(li)
+li.pop(2)
+print(li)
+del li[0]
+print(li)
+del li
+print (li) # li is not defined error because entire list del
