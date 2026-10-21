@@ -73,7 +73,13 @@ import string
 #     consonant +=1
 # print("vowels: ",vowels,"consonant: ",consonant)
 
+# #word,count,search
 
+# str = input("enter the string: ")
+# print(str)
+# list = str.split()
+# print("count word: ", len(list))
+# print("upper case:", str.upper())
 
 
 
