@@ -82,6 +82,19 @@ import string
 # print("upper case:", str.upper())
 
 
+# #find replace 
+# text = input("enter the string: ")
+# print(text)
+# old_str = input("enter the incorrect string: ")
+# new_str = input("enter the correct string: ")
+# if old_str in text:
+#   text = text.replace(old_str,new_str)
+#   print("correct text: ",text)
+# else:
+#   print("not found")
+ 
+ 
+
 
 
 
