@@ -41,6 +41,8 @@ import string
 # print(str2.islower())
 # print(str2.isupper())
 
+#string clean
+
 # str5 = "prince@124*&%"
 # clean =" "
 # for ch in str5:
@@ -48,6 +50,29 @@ import string
 #     clean += ch
 # print(clean)
     
+#password check
+
+# password = input("enter the password: ")
+# if len(password) <12:
+#   print("password should be 12 digit")
+# elif "prince" in password.lower():
+#   print("dont use of name")
+# elif password in string.punctuation:
+#   print("password must use the punctuation")
+# else:
+#   print("accepted")
+
+# #vowels exist
+# str6 = input("enter the string: ")
+# vowels = 0
+# consonant = 0
+# for ch in str6:
+#   if ch.lower() in "aeiou":
+#     vowels +=1
+#   else:
+#     consonant +=1
+# print("vowels: ",vowels,"consonant: ",consonant)
+
 
 
 
