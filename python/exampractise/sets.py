@@ -23,8 +23,11 @@ print(seta)
 seta.pop()
 print(seta)
 
-seta.remove(200)
-print(seta)
+# seta.remove(200)
+# print(seta)
 
 seta.discard(200)
 print(seta)
+
+print(len(seta))
+print(min(setb))
